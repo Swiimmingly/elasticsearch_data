@@ -1,7 +1,7 @@
 
 # This is the python script to load the data into the Elasticsearch
 The script uses threading and Elasticsearch bulk API to push massive amounts of data in a timely manner. The folder contains Dockerfile and it is recommended to be run through docker, where every requirement for script to run will be met.
-To build the docker image, cd into the project01 folder and run: docker build -t bigdata1:1.0 .
+To build the docker image, run: docker build -t bigdata1:1.0 .
 
 The script needs 5 environment variables to run, we can pass them like so:
 docker run -e APP_TOKEN="your API token" -e DATASET_ID="your dataset id" -e ES_HOST="your elasticsearch host" -e ES_USERNAME="your elasticsearch username" -e ES_PASSWORD="your elasticsearch password" bigdata:1.0 
