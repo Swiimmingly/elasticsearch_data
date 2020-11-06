@@ -17,3 +17,4 @@ docker run -e APP_TOKEN="your API token" -e DATASET_ID="your dataset id" -e ES_H
 
 # Kibana NYC parking violations example
 
+![https://github.com/Swiimmingly/elasticsearch_data/blob/master/assets/kibanadashboard.png?raw=true](https://your-copied-image-address)
